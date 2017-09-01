@@ -1,0 +1,99 @@
+#header {
+  background: #0e6bc9; }
+  #header nav {
+    background: white;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }
+  #header .container-header {
+    margin-top: 60px; }
+    #header .container-header h1 {
+      color: white;
+      font-weight: 700; }
+    #header .container-header h4 {
+      color: white;
+      font-weight: 300; }
+    #header .container-header .header-btn-call a {
+      color: white; }
+    #header .container-header img {
+      height: 22em; }
+
+#main-content .box-content {
+  padding: 1em; }
+  #main-content .box-content .box .icon {
+    width: 3em;
+    height: 2.7em;
+    display: inline-block;
+    border: 1px solid #0e6bc9;
+    padding: 0.2em; }
+    #main-content .box-content .box .icon i {
+      color: #0e6bc9;
+      font-size: 1.5em; }
+  #main-content .box-content:hover {
+    background: #f4f4f4;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all; }
+
+#sub-content {
+  background: #333333; }
+  #sub-content .title {
+    color: white; }
+
+#counter i {
+  font-size: 3.5em;
+  color: #0e6bc9; }
+
+#counter h4 {
+  font-size: 2.5em;
+  color: #333333; }
+
+#contact {
+  background: #f4f4f4; }
+  #contact .contact-form {
+    background: white; }
+
+#footer {
+  background: #333333; }
+  #footer .info {
+    color: white; }
+  #footer .social-list {
+    list-style: none; }
+    #footer .social-list li {
+      display: inline-block; }
+      #footer .social-list li a {
+        text-decoration: none;
+        color: white; }
+        #footer .social-list li a i {
+          font-size: 1.7em; }
+
+.title {
+  font-weight: 300;
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 2.7em; }
+  .title .color {
+    color: #0e6bc9; }
+
+.c-hr {
+  margin: auto;
+  width: 5em;
+  position: relative;
+  border-top: 2px solid #0e6bc9;
+  margin-top: 1em; }
+  .c-hr:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    background: #0e6bc9;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    top: -0.7em;
+    left: 1.9em; }
+
+.line {
+  height: 100px;
+  background: #0e6bc9;
+  width: 100%; }
+
+/*# sourceMappingURL=app.css.map */
